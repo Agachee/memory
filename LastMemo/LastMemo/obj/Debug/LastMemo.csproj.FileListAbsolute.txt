@@ -1,0 +1,10 @@
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.GameWindow.resources
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.Properties.Resources.resources
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\bin\Debug\LastMemo.exe.config
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\bin\Debug\LastMemo.exe
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\bin\Debug\LastMemo.pdb
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.exe
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.pdb
+C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.csprojResolveAssemblyReference.cache
