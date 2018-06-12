@@ -8,3 +8,16 @@ C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\bin\Debug\LastMemo.pdb
 C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.exe
 C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.pdb
 C:\Users\pc\Desktop\MemoryMatching\LastMemo\LastMemo\obj\Debug\LastMemo.csprojResolveAssemblyReference.cache
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\bin\Debug\LastMemo.exe.config
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\bin\Debug\LastMemo.exe
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\bin\Debug\LastMemo.pdb
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.csprojAssemblyReference.cache
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Properties.Resources.resources
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.csproj.GenerateResource.cache
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.csproj.CoreCompileInputs.cache
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.exe
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.pdb
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Menu.resources
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Form3.resources
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Form2.resources
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Form1.resources

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace LastMemo
 {
-    public partial class GameWindow : Form
+    public partial class Form1 : Form
     {
         //int score = 0;
         Random Location = new Random();
@@ -24,12 +24,12 @@ namespace LastMemo
         PictureBox PendingImage1; //prvata otvorena ja chuva
         PictureBox PendingImage2; //za vtorata
 
-        public GameWindow()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void GameWindow_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
             foreach (PictureBox picture in CardsHolder.Controls)
             {
