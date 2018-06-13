@@ -14,8 +14,7 @@ namespace LastMemo
     {
         //int score = 0;
         Random Location = new Random();
-        List<int> X = new List<int>();
-        List<int> Y = new List<int>();
+        List<Point> points = new List<Point>();
         bool again = false;
 
         //List<int> IDS = new List<int>;
@@ -31,36 +30,46 @@ namespace LastMemo
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            label1.Text = "5";
             foreach (PictureBox picture in CardsHolder.Controls)
             {
                 picture.Enabled = false;
+                points.Add(picture.Location);
             }
+            foreach (PictureBox picture in CardsHolder.Controls)
+            {
+                int next = Location.Next(points.Count);
+                Point p = points[next];
+                picture.Location = p;
+                points.Remove(p);
+            }
+
             timer1.Start();
             timer2.Start();
-            Card1.Image = Properties.Resources.Card1;
-            DupCard1.Image = Properties.Resources.Card1;
-            Card2.Image = Properties.Resources.Card2;
-            DupCard2.Image = Properties.Resources.Card2;
-            Card3.Image = Properties.Resources.Card3;
-            DupCard3.Image = Properties.Resources.Card3;
-            Card4.Image = Properties.Resources.Card4;
-            DupCard4.Image = Properties.Resources.Card4;
-            Card5.Image = Properties.Resources.Card5;
-            DupCard5.Image = Properties.Resources.Card5;
-            Card6.Image = Properties.Resources.Card6;
-            DupCard6.Image = Properties.Resources.Card6;
-            Card7.Image = Properties.Resources.Card7;
-            DupCard7.Image = Properties.Resources.Card7;
-            Card8.Image = Properties.Resources.Card8;
-            DupCard8.Image = Properties.Resources.Card8;
-            Card9.Image = Properties.Resources.Card9;
-            DupCard9.Image = Properties.Resources.Card9;
-            Card10.Image = Properties.Resources.Card10;
-            DupCard10.Image = Properties.Resources.Card10;
-            Card11.Image = Properties.Resources.Card11;
-            DupCard11.Image = Properties.Resources.Card11;
-            Card12.Image = Properties.Resources.Card12;
-            DupCard12.Image = Properties.Resources.Card12;
+            Card1.Image = Properties.Resources.delfin;
+            DupCard1.Image = Properties.Resources.delfin;
+            Card2.Image = Properties.Resources.ezh;
+            DupCard2.Image = Properties.Resources.ezh;
+            Card3.Image = Properties.Resources.kojot;
+            DupCard3.Image = Properties.Resources.kojot;
+            Card4.Image = Properties.Resources.kuche;
+            DupCard4.Image = Properties.Resources.kuche;
+            Card5.Image = Properties.Resources.mache;
+            DupCard5.Image = Properties.Resources.mache;
+            Card6.Image = Properties.Resources.meduza;
+            DupCard6.Image = Properties.Resources.meduza;
+            Card7.Image = Properties.Resources.panda;
+            DupCard7.Image = Properties.Resources.panda;
+            Card8.Image = Properties.Resources.prase;
+            DupCard8.Image = Properties.Resources.prase;
+            Card9.Image = Properties.Resources.paun;
+            DupCard9.Image = Properties.Resources.paun;
+            Card10.Image = Properties.Resources.riba;
+            DupCard10.Image = Properties.Resources.riba;
+            Card11.Image = Properties.Resources.zajak;
+            DupCard11.Image = Properties.Resources.zajak;
+            Card12.Image = Properties.Resources.buv;
+            DupCard12.Image = Properties.Resources.buv;
 
 
 
@@ -91,7 +100,7 @@ namespace LastMemo
         #region Cards
         private void Card1_Click(object sender, EventArgs e)
         {
-            Card1.Image = Properties.Resources.Card1;
+            Card1.Image = Properties.Resources.delfin;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card1;
@@ -121,7 +130,7 @@ namespace LastMemo
 
         private void DupCard1_Click(object sender, EventArgs e)
         {
-            DupCard1.Image = Properties.Resources.Card1;
+            DupCard1.Image = Properties.Resources.delfin;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard1;
@@ -151,7 +160,7 @@ namespace LastMemo
 
         private void Card2_Click(object sender, EventArgs e)
         {
-            Card2.Image = Properties.Resources.Card2;
+            Card2.Image = Properties.Resources.ezh;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card2;
@@ -181,7 +190,7 @@ namespace LastMemo
 
         private void DupCard2_Click(object sender, EventArgs e)
         {
-            DupCard2.Image = Properties.Resources.Card2;
+            DupCard2.Image = Properties.Resources.ezh;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard2;
@@ -211,7 +220,7 @@ namespace LastMemo
 
         private void Card3_Click(object sender, EventArgs e)
         {
-            Card3.Image = Properties.Resources.Card3;
+            Card3.Image = Properties.Resources.kojot;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card3;
@@ -241,7 +250,7 @@ namespace LastMemo
 
         private void DupCard3_Click(object sender, EventArgs e)
         {
-            DupCard3.Image = Properties.Resources.Card3;
+            DupCard3.Image = Properties.Resources.kojot;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard3;
@@ -271,7 +280,7 @@ namespace LastMemo
 
         private void Card4_Click(object sender, EventArgs e)
         {
-            Card4.Image = Properties.Resources.Card4;
+            Card4.Image = Properties.Resources.kuche;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card4;
@@ -301,7 +310,7 @@ namespace LastMemo
 
         private void DupCard4_Click(object sender, EventArgs e)
         {
-            DupCard4.Image = Properties.Resources.Card4;
+            DupCard4.Image = Properties.Resources.kuche;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard4;
@@ -331,7 +340,7 @@ namespace LastMemo
 
         private void Card5_Click(object sender, EventArgs e)
         {
-            Card5.Image = Properties.Resources.Card5;
+            Card5.Image = Properties.Resources.mache;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card5;
@@ -361,7 +370,7 @@ namespace LastMemo
 
         private void DupCard5_Click(object sender, EventArgs e)
         {
-            DupCard5.Image = Properties.Resources.Card5;
+            DupCard5.Image = Properties.Resources.mache;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard5;
@@ -391,7 +400,7 @@ namespace LastMemo
 
         private void Card6_Click(object sender, EventArgs e)
         {
-            Card6.Image = Properties.Resources.Card6;
+            Card6.Image = Properties.Resources.meduza;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card6;
@@ -421,7 +430,7 @@ namespace LastMemo
 
         private void DupCard6_Click(object sender, EventArgs e)
         {
-            DupCard6.Image = Properties.Resources.Card6;
+            DupCard6.Image = Properties.Resources.meduza;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard6;
@@ -451,7 +460,7 @@ namespace LastMemo
 
         private void Card7_Click(object sender, EventArgs e)
         {
-            Card7.Image = Properties.Resources.Card7;
+            Card7.Image = Properties.Resources.panda;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card7;
@@ -481,7 +490,7 @@ namespace LastMemo
 
         private void DupCard7_Click(object sender, EventArgs e)
         {
-            DupCard7.Image = Properties.Resources.Card7;
+            DupCard7.Image = Properties.Resources.panda;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard7;
@@ -511,7 +520,7 @@ namespace LastMemo
 
         private void Card8_Click(object sender, EventArgs e)
         {
-            Card8.Image = Properties.Resources.Card8;
+            Card8.Image = Properties.Resources.prase;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card8;
@@ -541,7 +550,7 @@ namespace LastMemo
 
         private void DupCard8_Click(object sender, EventArgs e)
         {
-            DupCard8.Image = Properties.Resources.Card8;
+            DupCard8.Image = Properties.Resources.prase;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard8;
@@ -572,7 +581,7 @@ namespace LastMemo
 
         private void Card9_Click(object sender, EventArgs e)
         {
-            Card9.Image = Properties.Resources.Card9;
+            Card9.Image = Properties.Resources.paun;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card9;
@@ -602,7 +611,7 @@ namespace LastMemo
 
         private void DupCard9_Click(object sender, EventArgs e)
         {
-            DupCard9.Image = Properties.Resources.Card9;
+            DupCard9.Image = Properties.Resources.paun;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard9;
@@ -632,7 +641,7 @@ namespace LastMemo
 
         private void Card10_Click(object sender, EventArgs e)
         {
-            Card10.Image = Properties.Resources.Card10;
+            Card10.Image = Properties.Resources.riba;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card10;
@@ -662,7 +671,7 @@ namespace LastMemo
 
         private void DupCard10_Click(object sender, EventArgs e)
         {
-            DupCard10.Image = Properties.Resources.Card10;
+            DupCard10.Image = Properties.Resources.riba;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard10;
@@ -692,7 +701,7 @@ namespace LastMemo
 
         private void Card11_Click(object sender, EventArgs e)
         {
-            Card11.Image = Properties.Resources.Card11;
+            Card11.Image = Properties.Resources.zajak;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card11;
@@ -722,7 +731,7 @@ namespace LastMemo
 
         private void DupCard11_Click(object sender, EventArgs e)
         {
-            DupCard11.Image = Properties.Resources.Card11;
+            DupCard11.Image = Properties.Resources.zajak;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard11;
@@ -752,7 +761,7 @@ namespace LastMemo
 
         private void Card12_Click(object sender, EventArgs e)
         {
-            Card12.Image = Properties.Resources.Card12;
+            Card12.Image = Properties.Resources.buv;
             if (PendingImage1 == null)
             {
                 PendingImage1 = Card12;
@@ -782,7 +791,7 @@ namespace LastMemo
 
         private void DupCard12_Click(object sender, EventArgs e)
         {
-            DupCard12.Image = Properties.Resources.Card12;
+            DupCard12.Image = Properties.Resources.buv;
             if (PendingImage1 == null)
             {
                 PendingImage1 = DupCard12;
@@ -814,11 +823,26 @@ namespace LastMemo
         private void timer3_Tick(object sender, EventArgs e)
         {
             timer3.Stop();
-            ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 10);
+            //ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 10);
             PendingImage1.Image = Properties.Resources.Cover;
             PendingImage2.Image = Properties.Resources.Cover;
             PendingImage1 = null;
             PendingImage2 = null;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3_Load(sender, e);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

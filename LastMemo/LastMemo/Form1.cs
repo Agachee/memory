@@ -14,8 +14,9 @@ namespace LastMemo
     {
         //int score = 0;
         Random Location = new Random();
-        List<int> X = new List<int>();
-        List<int> Y = new List<int>();
+        //List<int> X = new List<int>();
+        //List<int> Y = new List<int>();
+        List<Point> points = new List<Point>();
         bool again = false;
 
         //List<int> IDS = new List<int>;
@@ -31,11 +32,21 @@ namespace LastMemo
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label1.Text = "5";
             foreach (PictureBox picture in CardsHolder.Controls)
             {
                 picture.Enabled = false;
+                points.Add(picture.Location);
             }
-                timer1.Start();
+            foreach (PictureBox picture in CardsHolder.Controls)
+            {
+                int next = Location.Next(points.Count);
+                Point p = points[next];
+                picture.Location = p;
+                points.Remove(p);
+            }
+
+            timer1.Start();
             timer2.Start();
             Card1.Image = Properties.Resources.Card1;
             DupCard1.Image = Properties.Resources.Card1;
@@ -812,11 +823,26 @@ namespace LastMemo
         private void timer3_Tick(object sender, EventArgs e)
         {
             timer3.Stop();
-            ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 10);
+           // ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 10);
             PendingImage1.Image = Properties.Resources.Cover;
             PendingImage2.Image = Properties.Resources.Cover;
             PendingImage1 = null;
             PendingImage2 = null;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1_Load(sender, e);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

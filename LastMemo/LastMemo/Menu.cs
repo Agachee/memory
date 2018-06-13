@@ -34,5 +34,10 @@ namespace LastMemo
             Form3 animals = new Form3();
             animals.ShowDialog();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
