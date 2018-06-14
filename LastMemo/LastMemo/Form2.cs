@@ -71,8 +71,6 @@ namespace LastMemo
             Card12.Image = Properties.Resources.tikva;
             DupCard12.Image = Properties.Resources.tikva;
 
-
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -823,7 +821,7 @@ namespace LastMemo
         private void timer3_Tick(object sender, EventArgs e)
         {
             timer3.Stop();
-           // ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 10);
+            // ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) - 10);
             PendingImage1.Image = Properties.Resources.Cover;
             PendingImage2.Image = Properties.Resources.Cover;
             PendingImage1 = null;

@@ -19,7 +19,6 @@ C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.exe
 C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.pdb
 C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Menu.resources
 C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Form3.resources
-C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Form2.resources
 C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Form1.resources
 C:\Users\pc\Desktop\memory\LastMemo\LastMemo\bin\Debug\LastMemo.exe.config
 C:\Users\pc\Desktop\memory\LastMemo\LastMemo\bin\Debug\LastMemo.exe
@@ -34,3 +33,4 @@ C:\Users\pc\Desktop\memory\LastMemo\LastMemo\obj\Debug\LastMemo.csproj.GenerateR
 C:\Users\pc\Desktop\memory\LastMemo\LastMemo\obj\Debug\LastMemo.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\memory\LastMemo\LastMemo\obj\Debug\LastMemo.exe
 C:\Users\pc\Desktop\memory\LastMemo\LastMemo\obj\Debug\LastMemo.pdb
+C:\Users\jakim\Desktop\Memory\LastMemo\LastMemo\obj\Debug\LastMemo.Form2.resources
