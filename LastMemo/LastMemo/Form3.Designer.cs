@@ -104,82 +104,90 @@
             // DupCard12
             // 
             this.DupCard12.Location = new System.Drawing.Point(630, 382);
-            this.DupCard12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard12.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard12.Name = "DupCard12";
             this.DupCard12.Size = new System.Drawing.Size(120, 120);
             this.DupCard12.TabIndex = 23;
             this.DupCard12.TabStop = false;
             this.DupCard12.Tag = "12";
+            this.DupCard12.Click += new System.EventHandler(this.DupCard12_Click);
             // 
             // Card12
             // 
             this.Card12.Location = new System.Drawing.Point(506, 382);
-            this.Card12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card12.Margin = new System.Windows.Forms.Padding(2);
             this.Card12.Name = "Card12";
             this.Card12.Size = new System.Drawing.Size(120, 120);
             this.Card12.TabIndex = 22;
             this.Card12.TabStop = false;
             this.Card12.Tag = "12";
+            this.Card12.Click += new System.EventHandler(this.Card12_Click);
             // 
             // DupCard11
             // 
             this.DupCard11.Location = new System.Drawing.Point(382, 382);
-            this.DupCard11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard11.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard11.Name = "DupCard11";
             this.DupCard11.Size = new System.Drawing.Size(120, 120);
             this.DupCard11.TabIndex = 21;
             this.DupCard11.TabStop = false;
             this.DupCard11.Tag = "11";
+            this.DupCard11.Click += new System.EventHandler(this.DupCard11_Click);
             // 
             // Card11
             // 
             this.Card11.Location = new System.Drawing.Point(258, 382);
-            this.Card11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card11.Margin = new System.Windows.Forms.Padding(2);
             this.Card11.Name = "Card11";
             this.Card11.Size = new System.Drawing.Size(120, 120);
             this.Card11.TabIndex = 20;
             this.Card11.TabStop = false;
             this.Card11.Tag = "11";
+            this.Card11.Click += new System.EventHandler(this.Card11_Click);
             // 
             // DupCard10
             // 
             this.DupCard10.Location = new System.Drawing.Point(134, 382);
-            this.DupCard10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard10.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard10.Name = "DupCard10";
             this.DupCard10.Size = new System.Drawing.Size(120, 120);
             this.DupCard10.TabIndex = 19;
             this.DupCard10.TabStop = false;
             this.DupCard10.Tag = "10";
+            this.DupCard10.Click += new System.EventHandler(this.DupCard10_Click);
             // 
             // Card10
             // 
             this.Card10.Location = new System.Drawing.Point(10, 382);
-            this.Card10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card10.Margin = new System.Windows.Forms.Padding(2);
             this.Card10.Name = "Card10";
             this.Card10.Size = new System.Drawing.Size(120, 120);
             this.Card10.TabIndex = 18;
             this.Card10.TabStop = false;
             this.Card10.Tag = "10";
+            this.Card10.Click += new System.EventHandler(this.Card10_Click);
             // 
             // DupCard9
             // 
             this.DupCard9.Location = new System.Drawing.Point(630, 258);
-            this.DupCard9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard9.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard9.Name = "DupCard9";
             this.DupCard9.Size = new System.Drawing.Size(120, 120);
             this.DupCard9.TabIndex = 17;
             this.DupCard9.TabStop = false;
             this.DupCard9.Tag = "9";
+            this.DupCard9.Click += new System.EventHandler(this.DupCard9_Click);
             // 
             // Card9
             // 
             this.Card9.Location = new System.Drawing.Point(506, 258);
-            this.Card9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card9.Margin = new System.Windows.Forms.Padding(2);
             this.Card9.Name = "Card9";
             this.Card9.Size = new System.Drawing.Size(120, 120);
             this.Card9.TabIndex = 16;
             this.Card9.TabStop = false;
             this.Card9.Tag = "9";
+            this.Card9.Click += new System.EventHandler(this.Card9_Click);
             // 
             // timer1
             // 
@@ -200,52 +208,57 @@
             // DupCard8
             // 
             this.DupCard8.Location = new System.Drawing.Point(382, 258);
-            this.DupCard8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard8.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard8.Name = "DupCard8";
             this.DupCard8.Size = new System.Drawing.Size(120, 120);
             this.DupCard8.TabIndex = 15;
             this.DupCard8.TabStop = false;
             this.DupCard8.Tag = "8";
+            this.DupCard8.Click += new System.EventHandler(this.DupCard8_Click);
             // 
             // Card8
             // 
             this.Card8.Location = new System.Drawing.Point(258, 258);
-            this.Card8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card8.Margin = new System.Windows.Forms.Padding(2);
             this.Card8.Name = "Card8";
             this.Card8.Size = new System.Drawing.Size(120, 120);
             this.Card8.TabIndex = 14;
             this.Card8.TabStop = false;
             this.Card8.Tag = "8";
+            this.Card8.Click += new System.EventHandler(this.Card8_Click);
             // 
             // Card7
             // 
             this.Card7.Location = new System.Drawing.Point(10, 258);
-            this.Card7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card7.Margin = new System.Windows.Forms.Padding(2);
             this.Card7.Name = "Card7";
             this.Card7.Size = new System.Drawing.Size(120, 120);
             this.Card7.TabIndex = 12;
             this.Card7.TabStop = false;
             this.Card7.Tag = "7";
+            this.Card7.Click += new System.EventHandler(this.Card7_Click);
             // 
             // DupCard6
             // 
             this.DupCard6.Location = new System.Drawing.Point(630, 134);
-            this.DupCard6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard6.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard6.Name = "DupCard6";
             this.DupCard6.Size = new System.Drawing.Size(120, 120);
             this.DupCard6.TabIndex = 11;
             this.DupCard6.TabStop = false;
             this.DupCard6.Tag = "6";
+            this.DupCard6.Click += new System.EventHandler(this.DupCard6_Click);
             // 
             // Card6
             // 
             this.Card6.Location = new System.Drawing.Point(506, 134);
-            this.Card6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card6.Margin = new System.Windows.Forms.Padding(2);
             this.Card6.Name = "Card6";
             this.Card6.Size = new System.Drawing.Size(120, 120);
             this.Card6.TabIndex = 10;
             this.Card6.TabStop = false;
             this.Card6.Tag = "6";
+            this.Card6.Click += new System.EventHandler(this.Card6_Click);
             // 
             // ScoreCounter
             // 
@@ -261,12 +274,13 @@
             // DupCard7
             // 
             this.DupCard7.Location = new System.Drawing.Point(134, 258);
-            this.DupCard7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard7.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard7.Name = "DupCard7";
             this.DupCard7.Size = new System.Drawing.Size(120, 120);
             this.DupCard7.TabIndex = 13;
             this.DupCard7.TabStop = false;
             this.DupCard7.Tag = "7";
+            this.DupCard7.Click += new System.EventHandler(this.DupCard7_Click);
             // 
             // timer3
             // 
@@ -276,92 +290,101 @@
             // DupCard5
             // 
             this.DupCard5.Location = new System.Drawing.Point(382, 134);
-            this.DupCard5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard5.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard5.Name = "DupCard5";
             this.DupCard5.Size = new System.Drawing.Size(120, 120);
             this.DupCard5.TabIndex = 9;
             this.DupCard5.TabStop = false;
             this.DupCard5.Tag = "5";
+            this.DupCard5.Click += new System.EventHandler(this.DupCard5_Click);
             // 
             // Card5
             // 
             this.Card5.Location = new System.Drawing.Point(258, 134);
-            this.Card5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card5.Margin = new System.Windows.Forms.Padding(2);
             this.Card5.Name = "Card5";
             this.Card5.Size = new System.Drawing.Size(120, 120);
             this.Card5.TabIndex = 8;
             this.Card5.TabStop = false;
             this.Card5.Tag = "5";
+            this.Card5.Click += new System.EventHandler(this.Card5_Click);
             // 
             // DupCard4
             // 
             this.DupCard4.Location = new System.Drawing.Point(134, 134);
-            this.DupCard4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard4.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard4.Name = "DupCard4";
             this.DupCard4.Size = new System.Drawing.Size(120, 120);
             this.DupCard4.TabIndex = 7;
             this.DupCard4.TabStop = false;
             this.DupCard4.Tag = "4";
+            this.DupCard4.Click += new System.EventHandler(this.DupCard4_Click);
             // 
             // Card4
             // 
             this.Card4.Location = new System.Drawing.Point(10, 134);
-            this.Card4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card4.Margin = new System.Windows.Forms.Padding(2);
             this.Card4.Name = "Card4";
             this.Card4.Size = new System.Drawing.Size(120, 120);
             this.Card4.TabIndex = 6;
             this.Card4.TabStop = false;
             this.Card4.Tag = "4";
+            this.Card4.Click += new System.EventHandler(this.Card4_Click);
             // 
             // Card3
             // 
             this.Card3.Location = new System.Drawing.Point(506, 10);
-            this.Card3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card3.Margin = new System.Windows.Forms.Padding(2);
             this.Card3.Name = "Card3";
             this.Card3.Size = new System.Drawing.Size(120, 120);
             this.Card3.TabIndex = 4;
             this.Card3.TabStop = false;
             this.Card3.Tag = "3";
+            this.Card3.Click += new System.EventHandler(this.Card3_Click);
             // 
             // DupCard2
             // 
             this.DupCard2.Location = new System.Drawing.Point(382, 10);
-            this.DupCard2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard2.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard2.Name = "DupCard2";
             this.DupCard2.Size = new System.Drawing.Size(120, 120);
             this.DupCard2.TabIndex = 3;
             this.DupCard2.TabStop = false;
             this.DupCard2.Tag = "2";
+            this.DupCard2.Click += new System.EventHandler(this.DupCard2_Click);
             // 
             // Card2
             // 
             this.Card2.Location = new System.Drawing.Point(258, 10);
-            this.Card2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card2.Margin = new System.Windows.Forms.Padding(2);
             this.Card2.Name = "Card2";
             this.Card2.Size = new System.Drawing.Size(120, 120);
             this.Card2.TabIndex = 2;
             this.Card2.TabStop = false;
             this.Card2.Tag = "2";
+            this.Card2.Click += new System.EventHandler(this.Card2_Click);
             // 
             // DupCard1
             // 
             this.DupCard1.Location = new System.Drawing.Point(134, 10);
-            this.DupCard1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard1.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard1.Name = "DupCard1";
             this.DupCard1.Size = new System.Drawing.Size(120, 120);
             this.DupCard1.TabIndex = 1;
             this.DupCard1.TabStop = false;
             this.DupCard1.Tag = "1";
+            this.DupCard1.Click += new System.EventHandler(this.DupCard1_Click);
             // 
             // Card1
             // 
             this.Card1.Location = new System.Drawing.Point(10, 10);
-            this.Card1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Card1.Margin = new System.Windows.Forms.Padding(2);
             this.Card1.Name = "Card1";
             this.Card1.Size = new System.Drawing.Size(120, 120);
             this.Card1.TabIndex = 0;
             this.Card1.TabStop = false;
             this.Card1.Tag = "1";
+            this.Card1.Click += new System.EventHandler(this.Card1_Click);
             // 
             // timer2
             // 
@@ -371,12 +394,13 @@
             // DupCard3
             // 
             this.DupCard3.Location = new System.Drawing.Point(630, 10);
-            this.DupCard3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DupCard3.Margin = new System.Windows.Forms.Padding(2);
             this.DupCard3.Name = "DupCard3";
             this.DupCard3.Size = new System.Drawing.Size(120, 120);
             this.DupCard3.TabIndex = 5;
             this.DupCard3.TabStop = false;
             this.DupCard3.Tag = "3";
+            this.DupCard3.Click += new System.EventHandler(this.DupCard3_Click);
             // 
             // CardsHolder
             // 
@@ -405,7 +429,7 @@
             this.CardsHolder.Controls.Add(this.DupCard1);
             this.CardsHolder.Controls.Add(this.Card1);
             this.CardsHolder.Location = new System.Drawing.Point(11, 11);
-            this.CardsHolder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CardsHolder.Margin = new System.Windows.Forms.Padding(2);
             this.CardsHolder.Name = "CardsHolder";
             this.CardsHolder.Size = new System.Drawing.Size(757, 511);
             this.CardsHolder.TabIndex = 4;
@@ -414,7 +438,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(775, 112);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 41);
             this.button1.TabIndex = 8;
@@ -426,7 +450,7 @@
             // 
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(775, 160);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(139, 55);
             this.btnClose.TabIndex = 9;
@@ -438,7 +462,7 @@
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(775, 460);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(139, 54);
             this.btnExit.TabIndex = 10;

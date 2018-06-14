@@ -110,6 +110,7 @@
             this.DupCard12.TabIndex = 23;
             this.DupCard12.TabStop = false;
             this.DupCard12.Tag = "12";
+            this.DupCard12.Click += new System.EventHandler(this.DupCard12_Click);
             // 
             // Card12
             // 
@@ -120,6 +121,7 @@
             this.Card12.TabIndex = 22;
             this.Card12.TabStop = false;
             this.Card12.Tag = "12";
+            this.Card12.Click += new System.EventHandler(this.Card12_Click);
             // 
             // DupCard11
             // 
@@ -130,6 +132,7 @@
             this.DupCard11.TabIndex = 21;
             this.DupCard11.TabStop = false;
             this.DupCard11.Tag = "11";
+            this.DupCard11.Click += new System.EventHandler(this.DupCard11_Click);
             // 
             // Card11
             // 
@@ -140,6 +143,7 @@
             this.Card11.TabIndex = 20;
             this.Card11.TabStop = false;
             this.Card11.Tag = "11";
+            this.Card11.Click += new System.EventHandler(this.Card11_Click);
             // 
             // DupCard10
             // 
@@ -150,6 +154,7 @@
             this.DupCard10.TabIndex = 19;
             this.DupCard10.TabStop = false;
             this.DupCard10.Tag = "10";
+            this.DupCard10.Click += new System.EventHandler(this.DupCard10_Click);
             // 
             // Card10
             // 
@@ -160,6 +165,7 @@
             this.Card10.TabIndex = 18;
             this.Card10.TabStop = false;
             this.Card10.Tag = "10";
+            this.Card10.Click += new System.EventHandler(this.Card10_Click);
             // 
             // DupCard9
             // 
@@ -170,6 +176,7 @@
             this.DupCard9.TabIndex = 17;
             this.DupCard9.TabStop = false;
             this.DupCard9.Tag = "9";
+            this.DupCard9.Click += new System.EventHandler(this.DupCard9_Click);
             // 
             // Card9
             // 
@@ -180,6 +187,7 @@
             this.Card9.TabIndex = 16;
             this.Card9.TabStop = false;
             this.Card9.Tag = "9";
+            this.Card9.Click += new System.EventHandler(this.Card9_Click);
             // 
             // label1
             // 
@@ -201,6 +209,7 @@
             this.DupCard8.TabIndex = 15;
             this.DupCard8.TabStop = false;
             this.DupCard8.Tag = "8";
+            this.DupCard8.Click += new System.EventHandler(this.DupCard8_Click);
             // 
             // Card8
             // 
@@ -211,6 +220,7 @@
             this.Card8.TabIndex = 14;
             this.Card8.TabStop = false;
             this.Card8.Tag = "8";
+            this.Card8.Click += new System.EventHandler(this.Card8_Click);
             // 
             // Card7
             // 
@@ -221,6 +231,7 @@
             this.Card7.TabIndex = 12;
             this.Card7.TabStop = false;
             this.Card7.Tag = "7";
+            this.Card7.Click += new System.EventHandler(this.Card7_Click);
             // 
             // DupCard6
             // 
@@ -231,6 +242,7 @@
             this.DupCard6.TabIndex = 11;
             this.DupCard6.TabStop = false;
             this.DupCard6.Tag = "6";
+            this.DupCard6.Click += new System.EventHandler(this.DupCard6_Click);
             // 
             // Card6
             // 
@@ -241,6 +253,7 @@
             this.Card6.TabIndex = 10;
             this.Card6.TabStop = false;
             this.Card6.Tag = "6";
+            this.Card6.Click += new System.EventHandler(this.Card6_Click);
             // 
             // ScoreCounter
             // 
@@ -262,6 +275,7 @@
             this.DupCard7.TabIndex = 13;
             this.DupCard7.TabStop = false;
             this.DupCard7.Tag = "7";
+            this.DupCard7.Click += new System.EventHandler(this.DupCard7_Click);
             // 
             // DupCard5
             // 
@@ -272,6 +286,7 @@
             this.DupCard5.TabIndex = 9;
             this.DupCard5.TabStop = false;
             this.DupCard5.Tag = "5";
+            this.DupCard5.Click += new System.EventHandler(this.DupCard5_Click);
             // 
             // Card5
             // 
@@ -282,6 +297,7 @@
             this.Card5.TabIndex = 8;
             this.Card5.TabStop = false;
             this.Card5.Tag = "5";
+            this.Card5.Click += new System.EventHandler(this.Card5_Click);
             // 
             // DupCard4
             // 
@@ -292,6 +308,7 @@
             this.DupCard4.TabIndex = 7;
             this.DupCard4.TabStop = false;
             this.DupCard4.Tag = "4";
+            this.DupCard4.Click += new System.EventHandler(this.DupCard4_Click);
             // 
             // Card4
             // 
@@ -302,6 +319,7 @@
             this.Card4.TabIndex = 6;
             this.Card4.TabStop = false;
             this.Card4.Tag = "4";
+            this.Card4.Click += new System.EventHandler(this.Card4_Click);
             // 
             // Card3
             // 
@@ -312,6 +330,7 @@
             this.Card3.TabIndex = 4;
             this.Card3.TabStop = false;
             this.Card3.Tag = "3";
+            this.Card3.Click += new System.EventHandler(this.Card3_Click);
             // 
             // DupCard2
             // 
@@ -322,6 +341,7 @@
             this.DupCard2.TabIndex = 3;
             this.DupCard2.TabStop = false;
             this.DupCard2.Tag = "2";
+            this.DupCard2.Click += new System.EventHandler(this.DupCard2_Click);
             // 
             // Card2
             // 
@@ -332,6 +352,7 @@
             this.Card2.TabIndex = 2;
             this.Card2.TabStop = false;
             this.Card2.Tag = "2";
+            this.Card2.Click += new System.EventHandler(this.Card2_Click);
             // 
             // DupCard1
             // 
@@ -342,6 +363,7 @@
             this.DupCard1.TabIndex = 1;
             this.DupCard1.TabStop = false;
             this.DupCard1.Tag = "1";
+            this.DupCard1.Click += new System.EventHandler(this.DupCard1_Click);
             // 
             // Card1
             // 
@@ -352,6 +374,7 @@
             this.Card1.TabIndex = 0;
             this.Card1.TabStop = false;
             this.Card1.Tag = "1";
+            this.Card1.Click += new System.EventHandler(this.Card1_Click);
             // 
             // DupCard3
             // 
@@ -362,6 +385,7 @@
             this.DupCard3.TabIndex = 5;
             this.DupCard3.TabStop = false;
             this.DupCard3.Tag = "3";
+            this.DupCard3.Click += new System.EventHandler(this.DupCard3_Click);
             // 
             // CardsHolder
             // 
